@@ -3,7 +3,7 @@ import { Icon } from "astro-icon/components";
 import * as about from "../pages/about/about.md";
 ---
 
-<header class="mx-auto pt-6 pb-2 relative">
+<header class="mx-auto pt-6 pb-0 relative">
   <article
     class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
   >
@@ -12,25 +12,23 @@ import * as about from "../pages/about/about.md";
     >
       <img
         alt="avatar"
-        src="/profile.webp"
-        class="grayscale-[50] hover:grayscale-0"
+        src="/mahyeldi.webp"
+        class="drop-shadow-lg"
       />
     </div>
 
     <div class="text-center">
       <div
-        class="flex justify-center md:justify-between items-center mb-2 relative"
+        class="flex justify-center md:justify-between items-center relative"
       >
         <h1 class="text-3xl font-extrabold tracking-tight md:text-3xl relative">
           {about.frontmatter.name}
-          <div class="absolute top-0 left-full ml-2 -mt-4">
-            <div class="badge w-max text-sm font-light badge-outline shadow-lg">
-              {about.frontmatter.pronouns}
+          <div class="absolute top-0 left-full">
             </div>
           </div>
         </h1>
       </div>
-      <h2 class="text-lg mb-2 text-secondary">
+      <h2 class="text-lg text-secondary">
         {about.frontmatter.designation}
       </h2>
       <div class="flex items-center justify-center mt-1">
