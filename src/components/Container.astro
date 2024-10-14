@@ -14,13 +14,13 @@ const PDF = "/cv-20240219.pdf";
 ---
 
 <div class="join join-vertical gap-1">
-  <AccordionLayout title={"About"} icon={"carbon:identification"}>
+  <AccordionLayout title={"Biografi"} icon={"carbon:identification"}>
     <article class="text-justify">
       <Fragment set:html={about.compiledContent()} />
     </article>
   </AccordionLayout>
 
-  <AccordionLayout title={"Work"} icon={"carbon:construction"}>
+  <AccordionLayout title={"Rekam Jejak"} icon={"carbon:construction"}>
     {
       works.map((item) => {
         return (
@@ -38,7 +38,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Studies"} icon={"carbon:education"}>
+  <AccordionLayout title={"Pendidikan"} icon={"carbon:education"}>
     {
       studies.map((item) => {
         return (
@@ -72,7 +72,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Certifications"} icon={"carbon:certificate"}>
+  <AccordionLayout title={"Penghargaan"} icon={"carbon:certificate"}>
     {
       certificates.map((item) => {
         return (
