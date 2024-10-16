@@ -8,7 +8,7 @@ import * as about from "../pages/about/about.md";
     class="flex flex-col md:flex-col items-center gap-4 w-full max-w-2xl"
   >
     <div
-      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-sm overflow-hidden"
+      class="flex-shrink-0 w-20 md:w-24 rounded-full shadow-2xl overflow-hidden"
     >
       <img
         alt="avatar"
@@ -28,13 +28,12 @@ import * as about from "../pages/about/about.md";
           </div>
         </h1>
       </div>
-      <h2 class="text-lg text-secondary">
+      <h2 class="text-lg font-medium text-slate-500"><Icon name="carbon:friendship" class="w-4 h-4 mr-1 inline-block" />
         {about.frontmatter.designation}
       </h2>
       <div class="flex items-center justify-center mt-1">
-        <Icon name="carbon:location" class="w-4 h-4 mr-1" />
-        <p class="text-sm text-secondary">{about.frontmatter.location}</p>
-        <p class="text-sm text-secondary ml-2">| <a href="http://mahyeldivasko.com">{about.frontmatter.website}</a></p>
+        <p><Icon name="carbon:group-presentation" class="w-6 h-6 mr-2 inline-block" /><span class="font-semibold">PKS, PAN</span></p>
+        <p class="text-sm text-secondary ml-2 font-semibold">| <a href="https://mahyeldivasko.com" target="_blank">{about.frontmatter.website}</a></p>
       </div>
     </div>
   </article>

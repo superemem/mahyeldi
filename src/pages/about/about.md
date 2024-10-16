@@ -1,10 +1,10 @@
 ---
 title: about
 name: "Mahyeldi Ansharullah, S.P"
-designation: "Partai Keadilan Sejahtera (PKS)"
+designation: "Wakil - Vasko Ruseimy | No Urut 1"
 location: Padang, 25 Desember 1966
 pronouns: "he/him/el"
-website: "http://mahyeldivasko.com"
+website: "mahyeldivasko.com"
 ---
 
 H. Mahyeldi, S.P., bergelar Datuak Marajo, atau dikenal juga sebagai Buya Mahyeldi (lahir 25 Desember 1966), adalah seorang mubalig dan politisi dari Partai Keadilan Sejahtera (PKS) yang saat ini menjabat sebagai Gubernur Sumatera Barat. Sebelumnya, ia menjabat sebagai Wali Kota Padang selama dua periode melalui pemilihan umum tahun 2013 dan 2018.<p style="margin-bottom: 20px;">
