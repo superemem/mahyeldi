@@ -1,22 +1,12 @@
 ---
-title: Tactical Team Leader
-date: 1985 - 1990
-url: http://atawajof.dz/vonilzor
-location: Los Angeles, California
-org: Los Angeles County Sheriff's Department – SWAT Division
-tags:
-  [
-    "SWAT",
-    "Surveillance",
-    "Undercover Operations",
-    "Evidence Gathering",
-    "Case Solving",
-    "Interviewing Skills",
-  ]
+title: Walikota Padang
+date: 2019-2024
+url: https://id.wikipedia.org/wiki/Pemilihan_umum_Wali_Kota_Padang_2018
+location: Wakil - Hendri Septa
+org: Sumber
+tags: ["Partai Keadilan Sejahtera (PKS)", "Partai Amanat Nasional (PAN)"]
 ---
 
-- Led SWAT operations in high-risk situations, including hostage rescues, armed standoffs, and counter-terrorism missions.
-- Developed and implemented tactical plans tailored to specific scenarios, ensuring the safety of hostages, civilians, and law enforcement personnel.
-- Conducted specialized training for SWAT team members in firearms proficiency, close-quarters combat, tactical movement, and hostage negotiation.
-- Coordinated with local, state, and federal agencies to support joint operations and enhance interagency cooperation.
-- Provided expertise and assistance in the planning and execution of high-profile security details for visiting dignitaries, VIPs, and major events.
+Mahyeldi meninggalkan jabatannya sebagai Walikota Padang untuk mengikuti pemilihan gubernur Sumatera Barat pada tahun 2020, maju bersama Audy Joinaldi.
+
+### Partai Pengusung

@@ -46,6 +46,7 @@ const PDF = "/cv-20240219.pdf";
             title={item.frontmatter.title}
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
+            description={item.compiledContent()}
             tags={item.frontmatter.tags}
             url={item.url}
             url_name={item.frontmatter.institute}
@@ -89,16 +90,16 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
+  <AccordionLayout title={"Pendidikan"} icon={"carbon:education"}>
     {
-      blogs.map((item) => {
+      studies.map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
             timeframe={item.frontmatter.date}
-            description={item.compiledContent()}
-            url={item.frontmatter.url}
-            url_name={item.frontmatter.url_name}
+            location={item.frontmatter.location}
+            tags={item.frontmatter.tags}
+            url={item.url}
           />
         );
       })
