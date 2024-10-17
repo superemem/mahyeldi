@@ -47,9 +47,6 @@ const PDF = "/cv-20240219.pdf";
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
             description={item.compiledContent()}
-            tags={item.frontmatter.tags}
-            url={item.url}
-            url_name={item.frontmatter.institute}
           />
         );
       })

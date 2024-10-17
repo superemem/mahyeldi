@@ -1,8 +1,11 @@
 ---
-title: Advanced SWAT Tactics and Leadership Training
-location: FBI Academy
+title: Sekolah Menengah Pertama
+location: Dumai, Riau
 url: http://ni.sb/mehanad
-institute: FBI Academy
-date: 1975-1980
-tags: ["Conflict Resolution", "Strategic Planning", "Risk Assessment", "Firearms Training", "Emergency Response"]
+institute: SMP Negeri 1 Dumai
+date: Pindah Kelas 2
 ---
+
+### SMP Negeri 1 Dumai
+
+Setelah lulus dari SD Negeri 1 Dumai, Mahyeldi melanjutkan pendidikan di SMP Negeri 1 Dumai. Namun, ia pindah kembali ke Gadut, dan melanjutkan pendidikan di SMP Negeri Gadut.
