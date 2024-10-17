@@ -11,6 +11,8 @@ const certificates = await Astro.glob("../pages/certificates/*.md");
 const blogs = await Astro.glob("../pages/blogs/*.md");
 const contact = await Astro.glob("../pages/contact/*.md");
 const PDF = "/cv-20240219.pdf";
+const awards = await Astro.glob("../pages/awards/*.md");
+const disclaimer = await Astro.glob("../pages/disclaimer/*.md");
 ---
 
 <div class="join join-vertical gap-1">
@@ -53,7 +55,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Projects"} icon={"carbon:tools"}>
+  <AccordionLayout title={"Harta Kekayaan"} icon={"carbon:finance"}>
     {
       projects.map((item) => {
         return (
@@ -61,9 +63,8 @@ const PDF = "/cv-20240219.pdf";
             title={item.frontmatter.title}
             timeframe={item.frontmatter.date}
             description={item.compiledContent()}
-            tags={item.frontmatter.tags}
             url={item.frontmatter.url}
-            url_name={"View project"}
+            url_name={"Sumber"}
           />
         );
       })
@@ -72,59 +73,27 @@ const PDF = "/cv-20240219.pdf";
 
   <AccordionLayout title={"Penghargaan"} icon={"carbon:certificate"}>
     {
-      certificates.map((item) => {
+      disclaimer.map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
-            timeframe={item.frontmatter.date}
             description={item.compiledContent()}
-            tags={item.frontmatter.tags}
-            url={item.frontmatter.url}
-            url_name={"View Certificate"}
           />
         );
       })
     }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Pendidikan"} icon={"carbon:education"}>
-    {
-      studies.map((item) => {
+     {
+      awards.map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
             timeframe={item.frontmatter.date}
             location={item.frontmatter.location}
-            tags={item.frontmatter.tags}
-            url={item.url}
+            description={item.compiledContent()}
           />
         );
       })
     }
-  </AccordionLayout>
-
-  <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
-    <div class="flex justify-center w-full">
-      <div
-        class="card card-compact card-bordered border-[oklch(var(--s))] w-96 md:w-112 lg:w-128 hover:shadow-lg transition-all"
-      >
-        <figure>
-          <object data={PDF} type="application/pdf" width="100%"></object>
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Resume</h2>
-          <p>View and download my resume by clicking on the button below</p>
-          <div class="card-actions justify-end">
-            <a target="_blank" href={PDF}>
-              <button class="btn btn-outline">
-                <p>Download resume</p>
-                <Icon name="carbon:document-pdf" class="w-6 h-6 ml-1" />
-              </button>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
   </AccordionLayout>
 
   <AccordionLayout title={"Contact"} icon={"carbon:location-person"}>

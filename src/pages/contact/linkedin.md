@@ -1,5 +1,5 @@
 ---
-title: Linkedin
-icon: carbon:logo-linkedin
-url: https://www.linkedin.com/
+title: Website
+icon: carbon:wikis
+url: https://mahyeldivasko.com/
 ---

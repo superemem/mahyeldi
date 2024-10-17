@@ -1,5 +1,5 @@
 ---
-title: Github
-icon: carbon:logo-github
-url: httpa://github.com
+title: instagram
+icon: carbon:logo-instagram
+url: https://instagram.com/mahyeldisp
 ---

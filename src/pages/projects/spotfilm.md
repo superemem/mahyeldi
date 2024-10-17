@@ -1,17 +1,15 @@
 ---
 title: Harta Kekayaan
-url: http://dan.ma/humbe
+url: https://drive.google.com/file/d/1QaxfdAErX6-poKseMFq8SRloLP7JPKlE/view?usp=sharing
 tags: ["react", "javaScript", "axios", "HTML", "SCSS", "CSS"]
-date: Update 2023 (LHKPN)
+date: LHKPN Periodik 2023
 ---
 
 Total Kekayaan<br>
-**Rp 6.900.000.000**
+**Rp 7.491.692.537**
 
-Kekayaan Bersih
+Hutang<br>
+**Rp 550.000.000**
 
-### Rp 5.000.000.000
-
-Hutang
-
-### Rp
+Kekayaan Bersih<br>
+**Rp 6.941.692.537**
